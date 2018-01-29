@@ -1,3 +1,6 @@
 .vscode
 .DS_Store
+__pycache__
 syncme.py
+syncme.pyw
+config.py
