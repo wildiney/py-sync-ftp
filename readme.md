@@ -37,9 +37,6 @@ while True:
     time.sleep(60 * 10) # 60 segundos * 10 = 10 minutos
 ```
 
-## DONATION
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SRWLKCPSZGQTJ)
-
 Or a little bit smarter
 
 ```python
@@ -62,3 +59,5 @@ if syncronizing == "y":
 
 ```
 
+## DONATION
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SRWLKCPSZGQTJ)
