@@ -1,4 +1,6 @@
-#SyncFtp
+# SyncFtp
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SRWLKCPSZGQTJ)
+
 ## A synchronizer between a localfolder and a remote folder
 
 ### Example of use
@@ -34,6 +36,9 @@ while True:
     SYNC.send_to_ftp("/locafolder/to/sync/", "remotefolder/to/sync")
     time.sleep(60 * 10) # 60 segundos * 10 = 10 minutos
 ```
+
+## DONATION
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SRWLKCPSZGQTJ)
 
 Or a little bit smarter
 
