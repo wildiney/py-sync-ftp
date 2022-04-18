@@ -1,32 +1,10 @@
 # SyncFtp
 
-## A synchronizer between a localfolder and a remote folder
+A synchronizer between a localfolder and a remote folder
 
-### Example of use
+## Example of use
 
 If you want to always get files from ftp:
-
-* Create file syncme.pyw and start the application with the code bellow changing the informations with your real info.
-
-```python
-from sync_ftp import SyncFtp
-
-SYNC = SyncFtp("ftphost", "login", "password")
-SYNC.get_from_ftp("/locafolder/to/sync/", "remotefolder/to/sync")
-```
-
-If you want to always put files on ftp:
-
-* Create file syncme.pyw and start the application with the code bellow changing the informations with your real info.
-
-```python
-from sync_ftp import SyncFtp
-
-SYNC = SyncFtp("ftphost", "login", "password")
-SYNC.send_to_ftp("/locafolder/to/sync/", "remotefolder/to/sync")
-```
-
-You could use a continuous synchronization with the code bellow:
 
 * Create file syncme.pyw and start the application with the code bellow changing the informations with your real info.
 
